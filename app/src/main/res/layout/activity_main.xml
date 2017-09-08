@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.akashdubey.vibgyor.MainActivity">
+
+    <TextView
+        android:id="@+id/textRed"
+        android:layout_width="fill_parent"
+        android:layout_height="69dp"
+        android:text="@string/red"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:background="@color/red"
+         />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<TextView
+        android:id="@+id/textOrange"
+        android:layout_width="fill_parent"
+        android:layout_height="69dp"
+        android:text="@string/orange"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:background="@color/orange"
+         />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textYellow"
+        android:layout_width="fill_parent"
+        android:layout_height="69dp"
+        android:text="@string/yellow"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:background="@color/yellow"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textGreen"
+        android:layout_width="fill_parent"
+        android:layout_height="69dp"
+        android:text="@string/green"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:background="@color/green"
+         />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textBlue"
+        android:layout_width="fill_parent"
+        android:layout_height="69dp"
+        android:text="@string/blue"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:background="@color/blue"
+         />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textIndigo"
+            android:layout_width="fill_parent"
+            android:layout_height="69dp"
+            android:text="@string/indigo"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:background="@color/indigo"
+            />
+
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <TextView
+        android:id="@+id/textViolet"
+        android:layout_width="fill_parent"
+        android:layout_height="69dp"
+        android:text="@string/violet"
+        android:textAlignment="center"
+        android:textSize="30sp"
+            android:background="@color/violet"
+        />
+
+</LinearLayout>
+
+</LinearLayout>
